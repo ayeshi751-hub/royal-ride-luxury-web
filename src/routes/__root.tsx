@@ -77,11 +77,19 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Royal Ride Car & Limo Rental" },
+      {
+        name: "description",
+        content:
+          "Chauffeur-driven luxury cars and stretch limousines for weddings, corporate travel and airport transfers.",
+      },
+      { name: "author", content: "Royal Ride" },
+      { property: "og:title", content: "Royal Ride Car & Limo Rental" },
+      {
+        property: "og:description",
+        content:
+          "Chauffeur-driven luxury cars and stretch limousines for weddings, corporate travel and airport transfers.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:site", content: "@Lovable" },
